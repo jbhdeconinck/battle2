@@ -1,0 +1,9 @@
+<%=@player_1.name%> vs. <%= @player_2.name%>
+
+<%= @player_2.name%>'s HP: <%= @player_2.hit_points%>
+<form action='/attack' method="post">
+  <label for="Attack player 2">
+    Player 1
+  <input type='submit' value='Attack player 2'>
+</label>
+</form>
